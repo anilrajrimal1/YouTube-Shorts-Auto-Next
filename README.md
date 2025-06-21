@@ -15,7 +15,6 @@ Automatically skip to the next YouTube Short after the current one finishes play
 - ✅ Saves preference between browser sessions
 - ✅ Lightweight and privacy-focused (no data collection)
 
----
 
 ## Installation (Manual)
 
@@ -25,31 +24,26 @@ Automatically skip to the next YouTube Short after the current one finishes play
 4. Click **Load unpacked** → select this folder.
 5. Enjoy watching YouTube Shorts with automatic next skips!
 
----
 
 ## Publish on Chrome Web Store
 
 Publishing on the way — soon available at:
 
 ```
-[Chrome Web Store Link will be here]
+[Chrome Web Store Link will be here soon ]
 ```
 
----
-
-## Screenshots
+## Screenshot
 
 | Popup UI                           |
 |------------------------------------|
 | ![Popup UI](icons/popup-screenshot.png) |
 
----
 
 ## License
 
 MIT License © [Anil Raj Rimal](https://anilrajrimal.com.np/)
 
----
 
 ## ❤️ Support
 
