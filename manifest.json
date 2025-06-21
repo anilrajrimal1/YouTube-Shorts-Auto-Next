@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Shorts Auto Next",
+  "version": "1.0.0",
+  "description": "Automatically skip to the next YouTube Short after the current one finishes playing.",
+  "permissions": ["storage", "tabs", "scripting"],
+  "host_permissions": ["https://www.youtube.com/shorts/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/shorts/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "128": "icons/icon128.png"
+  },
+  "author": "Anil Raj Rimal"
+}
