@@ -27,3 +27,12 @@ document.addEventListener('DOMContentLoaded', () => {
     chrome.action.setBadgeBackgroundColor({ color: isEnabled ? '#4CAF50' : '#F44336' });
   }
 });
+
+// Load version dynamically from manifest.json
+document.addEventListener('DOMContentLoaded', () => {
+  const version = chrome.runtime.getManifest().version;
+  const versionText = document.getElementById('versionText');
+  if (versionText) {
+    versionText.textContent = `Version ${version}`;
+  }
+});
